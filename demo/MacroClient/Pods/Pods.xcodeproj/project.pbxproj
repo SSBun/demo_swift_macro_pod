@@ -7,51 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D1AB5C856DA566F52E6DDC4B1423BAB /* Pods-MacroClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95183CDBE1D5EF188D2615DA614025BC /* Pods-MacroClient-dummy.m */; };
-		76A13C9B3BFAA1B79525D036240D791A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C08737071177012FDCE4243473B41B48 /* Pods-MacroClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 218464D59DFFCE3A64B2114AB42D8291 /* Pods-MacroClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFD296D788367C03EA9A8538D03DA84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13D0077429B8907D92C569D7166A175A /* Pods-MacroClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FF58AA3DC408207A7E70DA2B613151 /* Pods-MacroClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C49022946C005FBEE81145E6B13EE9 /* JYMacros-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9535E73F2CA6B004CD8B31D7CABEF98 /* JYMacros-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0C39B10CBDEE20233E4A58B2984979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C01AA140942CE52F044979BBC8D35E2 /* Pods-MacroClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7159F5943191F85CDA487A4037BF9B1 /* Pods-MacroClient-dummy.m */; };
+		7855F4F3DAAF1266CAEB7F6FFEADDC27 /* JYMacros-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F76DDB89AF154ECB373875D3287F0 /* JYMacros-dummy.m */; };
+		81D569C2A0AECAFE6632D56CEB47CF53 /* JYMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EC8DF289AFDEA56380959C6ACBBB88 /* JYMacros.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF12EE49D2BBDCAABACD9F6FEA32A43A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3033916DCDB4844E1F62AFD9B1C5207;
+			remoteInfo = JYMacros;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		003F1464164BD36D1EC9102548C79FEE /* Pods-MacroClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacroClient-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E32B1394DE56359916CEA845CCA9DBC /* Pods-MacroClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacroClient.release.xcconfig"; sourceTree = "<group>"; };
-		218464D59DFFCE3A64B2114AB42D8291 /* Pods-MacroClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacroClient-umbrella.h"; sourceTree = "<group>"; };
+		0FC7FE2E51CD72F2F9DC6337B5664CF8 /* JYMacros-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYMacros-Info.plist"; sourceTree = "<group>"; };
+		13EC8DF289AFDEA56380959C6ACBBB88 /* JYMacros.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JYMacros.swift; path = Sources/JYMacros/JYMacros.swift; sourceTree = "<group>"; };
+		3200A80AFE88855D85774F4BD01ABC7C /* JYMacros-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYMacros-prefix.pch"; sourceTree = "<group>"; };
+		37FF58AA3DC408207A7E70DA2B613151 /* Pods-MacroClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MacroClient-umbrella.h"; sourceTree = "<group>"; };
+		44678BEA7D6597D02AE06464D2A8F0F0 /* Pods-MacroClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacroClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		452606BA5D7FF19AA29A2CD0C28E36E6 /* Pods-MacroClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacroClient-Info.plist"; sourceTree = "<group>"; };
+		5E163B79A551849674726D12C10E05E4 /* Pods-MacroClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacroClient.debug.xcconfig"; sourceTree = "<group>"; };
+		6635D6ACE13E1762860327CC05510A09 /* Pods-MacroClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacroClient-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		892CFEB2CA1F2D6F0676D10A6959D463 /* Pods-MacroClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MacroClient.modulemap"; sourceTree = "<group>"; };
-		95183CDBE1D5EF188D2615DA614025BC /* Pods-MacroClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacroClient-dummy.m"; sourceTree = "<group>"; };
-		9CFBD337C235EBEE777F81545475A99C /* Pods-MacroClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacroClient.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB304EDCCD325A1704B8EA1DFAB3685 /* Pods-MacroClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MacroClient.modulemap"; sourceTree = "<group>"; };
+		85AB49368FBCF90D89939806ACCFAD15 /* Pods-MacroClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacroClient-frameworks.sh"; sourceTree = "<group>"; };
 		9D90B51C57B1A45AD6A89A9D94BC04F5 /* Pods-MacroClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MacroClient"; path = Pods_MacroClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB8C1776BBD1E192D09F902C9D1219EB /* Pods-MacroClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacroClient-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D860721D89B8B3DC74835AE4D4A42D07 /* Pods-MacroClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacroClient-Info.plist"; sourceTree = "<group>"; };
+		B3D8838F061C6F7B28158FA6559F10A3 /* JYMacros */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYMacros; path = JYMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7159F5943191F85CDA487A4037BF9B1 /* Pods-MacroClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacroClient-dummy.m"; sourceTree = "<group>"; };
+		ED30D33EFEA038285D2FAF43CDDE6E43 /* JYMacros.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYMacros.release.xcconfig; sourceTree = "<group>"; };
+		EED638D67358F3CF06A8A904D73FF3B7 /* Pods-MacroClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacroClient.release.xcconfig"; sourceTree = "<group>"; };
+		F52F76DDB89AF154ECB373875D3287F0 /* JYMacros-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYMacros-dummy.m"; sourceTree = "<group>"; };
+		F8F6590CE7508009CF0DA7BDAEADF1EB /* JYMacros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYMacros.debug.xcconfig; sourceTree = "<group>"; };
+		F9535E73F2CA6B004CD8B31D7CABEF98 /* JYMacros-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYMacros-umbrella.h"; sourceTree = "<group>"; };
+		FC3684F7BE1AF5B48BA68C4F1FB635D1 /* JYMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYMacros.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		010BE566CF1720D33A2769763DE6F2A9 /* Frameworks */ = {
+		77EAFDC2AD6F5F2950A3CC17CC9B011D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A13C9B3BFAA1B79525D036240D791A /* Foundation.framework in Frameworks */,
+				0AFD296D788367C03EA9A8538D03DA84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D703C6BFCA9B8BE461864939168D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0C39B10CBDEE20233E4A58B2984979 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D5912FABE5EB1379D6ECCBDD7FD4EBE /* Pods-MacroClient */ = {
+		1EFF50E80004E3FF90D9D35BD2BC5051 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				892CFEB2CA1F2D6F0676D10A6959D463 /* Pods-MacroClient.modulemap */,
-				AB8C1776BBD1E192D09F902C9D1219EB /* Pods-MacroClient-acknowledgements.markdown */,
-				003F1464164BD36D1EC9102548C79FEE /* Pods-MacroClient-acknowledgements.plist */,
-				95183CDBE1D5EF188D2615DA614025BC /* Pods-MacroClient-dummy.m */,
-				D860721D89B8B3DC74835AE4D4A42D07 /* Pods-MacroClient-Info.plist */,
-				218464D59DFFCE3A64B2114AB42D8291 /* Pods-MacroClient-umbrella.h */,
-				9CFBD337C235EBEE777F81545475A99C /* Pods-MacroClient.debug.xcconfig */,
-				0E32B1394DE56359916CEA845CCA9DBC /* Pods-MacroClient.release.xcconfig */,
+				FC3684F7BE1AF5B48BA68C4F1FB635D1 /* JYMacros.modulemap */,
+				F52F76DDB89AF154ECB373875D3287F0 /* JYMacros-dummy.m */,
+				0FC7FE2E51CD72F2F9DC6337B5664CF8 /* JYMacros-Info.plist */,
+				3200A80AFE88855D85774F4BD01ABC7C /* JYMacros-prefix.pch */,
+				F9535E73F2CA6B004CD8B31D7CABEF98 /* JYMacros-umbrella.h */,
+				F8F6590CE7508009CF0DA7BDAEADF1EB /* JYMacros.debug.xcconfig */,
+				ED30D33EFEA038285D2FAF43CDDE6E43 /* JYMacros.release.xcconfig */,
 			);
-			name = "Pods-MacroClient";
-			path = "Target Support Files/Pods-MacroClient";
+			name = "Support Files";
+			path = "../Target Support Files/JYMacros";
+			sourceTree = "<group>";
+		};
+		3E7CF5A4935DE54419ACB2BB62F44987 /* JYMacros */ = {
+			isa = PBXGroup;
+			children = (
+				13EC8DF289AFDEA56380959C6ACBBB88 /* JYMacros.swift */,
+				1EFF50E80004E3FF90D9D35BD2BC5051 /* Support Files */,
+			);
+			name = JYMacros;
+			path = JYMacros;
+			sourceTree = "<group>";
+		};
+		4C57075D9C1C7D365371991392E78F2B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				885C6DFBD11D3B70AC379E99139D3BE8 /* Pods-MacroClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		518A4C8D470EF670A126E1EEE431D2E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8838F061C6F7B28158FA6559F10A3 /* JYMacros */,
+				9D90B51C57B1A45AD6A89A9D94BC04F5 /* Pods-MacroClient */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -62,20 +120,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9B1894F9DD88C0735E72EAF1E72488B2 /* Targets Support Files */ = {
+		885C6DFBD11D3B70AC379E99139D3BE8 /* Pods-MacroClient */ = {
 			isa = PBXGroup;
 			children = (
-				4D5912FABE5EB1379D6ECCBDD7FD4EBE /* Pods-MacroClient */,
+				7DB304EDCCD325A1704B8EA1DFAB3685 /* Pods-MacroClient.modulemap */,
+				6635D6ACE13E1762860327CC05510A09 /* Pods-MacroClient-acknowledgements.markdown */,
+				44678BEA7D6597D02AE06464D2A8F0F0 /* Pods-MacroClient-acknowledgements.plist */,
+				C7159F5943191F85CDA487A4037BF9B1 /* Pods-MacroClient-dummy.m */,
+				85AB49368FBCF90D89939806ACCFAD15 /* Pods-MacroClient-frameworks.sh */,
+				452606BA5D7FF19AA29A2CD0C28E36E6 /* Pods-MacroClient-Info.plist */,
+				37FF58AA3DC408207A7E70DA2B613151 /* Pods-MacroClient-umbrella.h */,
+				5E163B79A551849674726D12C10E05E4 /* Pods-MacroClient.debug.xcconfig */,
+				EED638D67358F3CF06A8A904D73FF3B7 /* Pods-MacroClient.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-MacroClient";
+			path = "Target Support Files/Pods-MacroClient";
 			sourceTree = "<group>";
 		};
-		CCDAE6C2474F46E1107D8C09778E46BC /* Products */ = {
+		BDC84862C7A34A45283E959F409362FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D90B51C57B1A45AD6A89A9D94BC04F5 /* Pods-MacroClient */,
+				3E7CF5A4935DE54419ACB2BB62F44987 /* JYMacros */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -83,8 +150,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CCDAE6C2474F46E1107D8C09778E46BC /* Products */,
-				9B1894F9DD88C0735E72EAF1E72488B2 /* Targets Support Files */,
+				BDC84862C7A34A45283E959F409362FB /* Pods */,
+				518A4C8D470EF670A126E1EEE431D2E7 /* Products */,
+				4C57075D9C1C7D365371991392E78F2B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,29 +167,56 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A3A46FC8F129614ADAF9F08F8877718 /* Headers */ = {
+		21ABF0CBE1B0114BB7397B7998F14979 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08737071177012FDCE4243473B41B48 /* Pods-MacroClient-umbrella.h in Headers */,
+				13D0077429B8907D92C569D7166A175A /* Pods-MacroClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F02F6263F9010D80E99BD8A7685086 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C49022946C005FBEE81145E6B13EE9 /* JYMacros-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C50CC440C2F47649CFCBAB7098CBD003 /* Pods-MacroClient */ = {
+		C3033916DCDB4844E1F62AFD9B1C5207 /* JYMacros */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D923656BC797BAAC4DB7D1158137F8EB /* Build configuration list for PBXNativeTarget "Pods-MacroClient" */;
+			buildConfigurationList = 2F5667B908A4DD2997F0B023169E38CE /* Build configuration list for PBXNativeTarget "JYMacros" */;
 			buildPhases = (
-				0A3A46FC8F129614ADAF9F08F8877718 /* Headers */,
-				8C16DB1686C18F1657C74C356CA46195 /* Sources */,
-				010BE566CF1720D33A2769763DE6F2A9 /* Frameworks */,
-				4897E8E857D698F931311BFA0915C951 /* Resources */,
+				94F02F6263F9010D80E99BD8A7685086 /* Headers */,
+				ED05699A3592DCE6849CAEB3A6B97DA3 /* Sources */,
+				77EAFDC2AD6F5F2950A3CC17CC9B011D /* Frameworks */,
+				E4B1CC8A59F4A4E8C0B5A93FAE154ED8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = JYMacros;
+			productName = JYMacros;
+			productReference = B3D8838F061C6F7B28158FA6559F10A3 /* JYMacros */;
+			productType = "com.apple.product-type.framework";
+		};
+		C50CC440C2F47649CFCBAB7098CBD003 /* Pods-MacroClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EFA21BCF515A7FFFD54D5F8D1DD8E6 /* Build configuration list for PBXNativeTarget "Pods-MacroClient" */;
+			buildPhases = (
+				21ABF0CBE1B0114BB7397B7998F14979 /* Headers */,
+				B0F3024176A6D6BB3343C461B81236A8 /* Sources */,
+				E1D703C6BFCA9B8BE461864939168D8D /* Frameworks */,
+				AF5C109A9BE734C4EF0C023FFE11B540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B35358834024149E6189304AC979351 /* PBXTargetDependency */,
 			);
 			name = "Pods-MacroClient";
 			productName = Pods_MacroClient;
@@ -146,17 +241,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CCDAE6C2474F46E1107D8C09778E46BC /* Products */;
+			productRefGroup = 518A4C8D470EF670A126E1EEE431D2E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C3033916DCDB4844E1F62AFD9B1C5207 /* JYMacros */,
 				C50CC440C2F47649CFCBAB7098CBD003 /* Pods-MacroClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4897E8E857D698F931311BFA0915C951 /* Resources */ = {
+		AF5C109A9BE734C4EF0C023FFE11B540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B1CC8A59F4A4E8C0B5A93FAE154ED8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,20 +269,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C16DB1686C18F1657C74C356CA46195 /* Sources */ = {
+		B0F3024176A6D6BB3343C461B81236A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1AB5C856DA566F52E6DDC4B1423BAB /* Pods-MacroClient-dummy.m in Sources */,
+				5C01AA140942CE52F044979BBC8D35E2 /* Pods-MacroClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED05699A3592DCE6849CAEB3A6B97DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D569C2A0AECAFE6632D56CEB47CF53 /* JYMacros.swift in Sources */,
+				7855F4F3DAAF1266CAEB7F6FFEADDC27 /* JYMacros-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1B35358834024149E6189304AC979351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JYMacros;
+			target = C3033916DCDB4844E1F62AFD9B1C5207 /* JYMacros */;
+			targetProxy = DF12EE49D2BBDCAABACD9F6FEA32A43A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		05FECDC2DEE12E531CA645AB99B7DBCA /* Debug */ = {
+		1F798E5E92CBEB737B7A97D2A0AA0F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CFBD337C235EBEE777F81545475A99C /* Pods-MacroClient.debug.xcconfig */;
+			baseConfigurationReference = 5E163B79A551849674726D12C10E05E4 /* Pods-MacroClient.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -214,9 +335,9 @@
 			};
 			name = Debug;
 		};
-		0B85FF44D3B6C5310354E27E111B88E4 /* Release */ = {
+		65B0F8BB963CD769E2D0D82E9E5CEB6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E32B1394DE56359916CEA845CCA9DBC /* Pods-MacroClient.release.xcconfig */;
+			baseConfigurationReference = EED638D67358F3CF06A8A904D73FF3B7 /* Pods-MacroClient.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -318,6 +439,77 @@
 			};
 			name = Debug;
 		};
+		893F0E45CB677645C461E006A2442F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED30D33EFEA038285D2FAF43CDDE6E43 /* JYMacros.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYMacros/JYMacros-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYMacros/JYMacros-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JYMacros/JYMacros.modulemap";
+				PRODUCT_MODULE_NAME = JYMacros;
+				PRODUCT_NAME = JYMacros;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B44405BB1B4624CB63EE809CDCD9E78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F6590CE7508009CF0DA7BDAEADF1EB /* JYMacros.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYMacros/JYMacros-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYMacros/JYMacros-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JYMacros/JYMacros.modulemap";
+				PRODUCT_MODULE_NAME = JYMacros;
+				PRODUCT_NAME = JYMacros;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +575,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F5667B908A4DD2997F0B023169E38CE /* Build configuration list for PBXNativeTarget "JYMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44405BB1B4624CB63EE809CDCD9E78C /* Debug */,
+				893F0E45CB677645C461E006A2442F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -392,11 +593,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D923656BC797BAAC4DB7D1158137F8EB /* Build configuration list for PBXNativeTarget "Pods-MacroClient" */ = {
+		76EFA21BCF515A7FFFD54D5F8D1DD8E6 /* Build configuration list for PBXNativeTarget "Pods-MacroClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05FECDC2DEE12E531CA645AB99B7DBCA /* Debug */,
-				0B85FF44D3B6C5310354E27E111B88E4 /* Release */,
+				1F798E5E92CBEB737B7A97D2A0AA0F41 /* Debug */,
+				65B0F8BB963CD769E2D0D82E9E5CEB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
