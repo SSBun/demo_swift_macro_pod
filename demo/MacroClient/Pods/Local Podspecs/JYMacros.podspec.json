@@ -1,0 +1,36 @@
+{
+  "name": "JYMacros",
+  "version": "0.0.1",
+  "summary": "Some Swift macros.",
+  "description": "A proof of concept macro to show they can work with cocoapods.",
+  "homepage": "https://github.com/SSBun",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caishilin": "caishilin@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/SSBun/demo_swift_macro_pod",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source_files": [
+    "Sources/JYMacros/**/*"
+  ],
+  "swift_versions": "5.9",
+  "preserve_paths": [
+    "macros/JYMacrosMacros"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable /Users/caishilin/Desktop/personal/demo_swift_macro_pod/macros/JYMacrosMacros#JYMacrosMacros"
+  },
+  "user_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable /Users/caishilin/Desktop/personal/demo_swift_macro_pod/macros/JYMacrosMacros#JYMacrosMacros"
+  },
+  "prepare_command": "echo \"Running a custom prepare command\"\nmake ./Makefile",
+  "swift_version": "5.9"
+}

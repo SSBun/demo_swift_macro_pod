@@ -1,0 +1,16 @@
+PODS:
+  - JYMacros (0.0.1)
+
+DEPENDENCIES:
+  - JYMacros (from `./../..`)
+
+EXTERNAL SOURCES:
+  JYMacros:
+    :path: "./../.."
+
+SPEC CHECKSUMS:
+  JYMacros: 14fb124b8487277a1d939e888af2d9fa899cd34d
+
+PODFILE CHECKSUM: dd3fd90bb902aa60766daa61a6139573eacbd3a6
+
+COCOAPODS: 1.14.3
