@@ -2,21 +2,21 @@ PODS:
   - JYMacros (0.0.1)
 
 DEPENDENCIES:
-  - JYMacros (from `https://github.com/SSBun/demo_swift_macro_pod.git`, branch `dev`)
+  - JYMacros (from `https://github.com/SSBun/demo_swift_macro_pod.git`, tag `0.0.5`)
 
 EXTERNAL SOURCES:
   JYMacros:
-    :branch: dev
     :git: https://github.com/SSBun/demo_swift_macro_pod.git
+    :tag: 0.0.5
 
 CHECKOUT OPTIONS:
   JYMacros:
-    :commit: 324ae0abcc6f2b87c69b2307898414496512d66f
     :git: https://github.com/SSBun/demo_swift_macro_pod.git
+    :tag: 0.0.5
 
 SPEC CHECKSUMS:
-  JYMacros: 30688190cc175a9e57c8a1a94c9f8444ccac7abd
+  JYMacros: ad5448eb5fb7c5015d35509a2849847d742482e5
 
-PODFILE CHECKSUM: bfd7a5e47ff9b35ca252743d037bfccabfb74bad
+PODFILE CHECKSUM: 334e90e0205d2a87d3b06174682dd5598c82903e
 
 COCOAPODS: 1.14.3
