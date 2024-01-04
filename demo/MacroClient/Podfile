@@ -6,7 +6,7 @@ target 'MacroClient' do
   use_frameworks!
 
   #pod 'JYMacros', path: "./../.."
-  #pod 'JYMacros', git: "https://github.com/SSBun/demo_swift_macro_pod.git", tag: '0.0.3'
+  pod 'JYMacros', git: "https://github.com/SSBun/demo_swift_macro_pod.git", tag: '0.0.4'
   
   
 
