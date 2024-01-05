@@ -26,10 +26,10 @@
     "macros/JYMacrosMacros"
   ],
   "pod_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/macros/JYMacrosMacros#JYMacrosMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros"
   },
   "user_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/macros/JYMacrosMacros#JYMacrosMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros"
   },
   "swift_version": "5.9"
 }

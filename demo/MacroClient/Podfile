@@ -6,8 +6,10 @@ target 'MacroClient' do
   use_frameworks!
 
   #pod 'JYMacros', path: "./../.."
-  pod 'JYMacros', git: "https://github.com/SSBun/demo_swift_macro_pod.git", tag: '0.0.5'
+  pod 'JYMacros', git: "https://github.com/SSBun/demo_swift_macro_pod.git", tag: '0.0.8'
   
-  
-
+  script_phase \
+    :name => '[BJLiveCore] Embed Frameworks',
+    :script => 'make Pods/JYMacros/Makefile',
+    :execution_position => :before_compile
 end
