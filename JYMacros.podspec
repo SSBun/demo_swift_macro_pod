@@ -14,8 +14,9 @@ A proof of concept macro to show they can work with cocoapods.
   s.swift_version = "5.9"
   s.preserve_paths = [
     "Sources/JYMacrosMacros/**/*",
-    "Package.swift",
-    "Makefile",
+    "Resources/**/*"
+    "./Package.swift",
+    "./Makefile",
   ]
 #  s.preserve_paths = ["macros/JYMacrosMacros", "./Makefile"]
   s.preserve_paths = ["./"]
