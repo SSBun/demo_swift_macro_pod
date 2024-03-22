@@ -12,26 +12,31 @@ A proof of concept macro to show they can work with cocoapods.
   s.ios.deployment_target = '13.0'
   s.source_files = ['Sources/JYMacros/**/*']
   s.swift_version = "5.9"
-  s.preserve_paths = ["Sources/JYMacrosMacros", "Package.swift"]
+  s.preserve_paths = [
+    "Sources/JYMacrosMacros/**/*",
+    "Package.swift",
+    "Makefile",
+  ]
 #  s.preserve_paths = ["macros/JYMacrosMacros", "./Makefile"]
   s.preserve_paths = ["./"]
   s.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
-    # 'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
+    #'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
   }
   s.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
-    # 'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
+    #'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
   }
   
   
   puts "[DEBUG]Current path: #{`pwd`}"
   
-  makeFilePath = `pwd`
+  #makeFilePath = `pwd`
+  makeFilePath = "${PODS_ROOT}/JYMacros"
   
   # A script printing current path
   script = <<~SCRIPT
-    env -i PATH="$PATH" "$SHELL" -l -c "(cd #{Dir.pwd} && make)"
+    env -i PATH="$PATH" "$SHELL" -l -c "(cd #{makeFilePath} && make)"
   SCRIPT
 
   
