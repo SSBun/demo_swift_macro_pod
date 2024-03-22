@@ -99,7 +99,6 @@
 			buildConfigurationList = C45016E82B46AF2D00E53089 /* Build configuration list for PBXNativeTarget "MacroClient" */;
 			buildPhases = (
 				85220CE3E42A695AC71E7804 /* [CP] Check Pods Manifest.lock */,
-				7A510A5B110CC6E2533FDBA4 /* [CP-User] [BJLiveCore] Embed Frameworks */,
 				C45016D02B46AF2C00E53089 /* Sources */,
 				C45016D12B46AF2C00E53089 /* Frameworks */,
 				C45016D22B46AF2C00E53089 /* Resources */,
@@ -161,16 +160,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7A510A5B110CC6E2533FDBA4 /* [CP-User] [BJLiveCore] Embed Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] [BJLiveCore] Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make Pods/JYMacros/Makefile";
-		};
 		85220CE3E42A695AC71E7804 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

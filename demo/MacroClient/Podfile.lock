@@ -1,22 +1,22 @@
 PODS:
   - JYMacros (0.0.1)
+  - ModuleA (0.1.0):
+    - JYMacros
 
 DEPENDENCIES:
-  - JYMacros (from `https://github.com/SSBun/demo_swift_macro_pod.git`, tag `0.0.8`)
+  - JYMacros (from `./../..`)
+  - ModuleA (from `./../ModuleA`)
 
 EXTERNAL SOURCES:
   JYMacros:
-    :git: https://github.com/SSBun/demo_swift_macro_pod.git
-    :tag: 0.0.8
-
-CHECKOUT OPTIONS:
-  JYMacros:
-    :git: https://github.com/SSBun/demo_swift_macro_pod.git
-    :tag: 0.0.8
+    :path: "./../.."
+  ModuleA:
+    :path: "./../ModuleA"
 
 SPEC CHECKSUMS:
-  JYMacros: 93176df46d819f04c05dfe73f4bec3abb7a53d0f
+  JYMacros: 2dde8e954c0cc680f20ed15829090636a46e0612
+  ModuleA: 650ecb16f64d5041e06e10cd2b6d08b6cdca8140
 
-PODFILE CHECKSUM: 74a0e046ee90ff7599c45bfcef5337aba717339d
+PODFILE CHECKSUM: d0540eb4681587b3b11cae59b865542ff1a1bfcb
 
 COCOAPODS: 1.14.3

@@ -9,14 +9,15 @@ let package = Package(
     platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .watchOS(.v6), .macCatalyst(.v13)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "JYMacros",
-            targets: ["JYMacros"]
-        ),
-        .executable(
-            name: "JYMacrosClient",
-            targets: ["JYMacrosClient"]
-        ),
+        .executable(name: "JYMacrosMacros", targets: ["JYMacrosMacros"])
+//      .library(
+//          name: "JYMacros",
+//          targets: ["JYMacros"]
+//      ),
+//      .executable(
+//          name: "JYMacrosClient",
+//          targets: ["JYMacrosClient"]
+//      ),
     ],
     dependencies: [
         // Depend on the Swift 5.9 release of SwiftSyntax
@@ -26,7 +27,7 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         // Macro implementation that performs the source transformation of a macro.
-        .macro(
+        .executableTarget(
             name: "JYMacrosMacros",
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
@@ -35,18 +36,18 @@ let package = Package(
         ),
 
         // Library that exposes a macro as part of its API, which is used in client programs.
-        .target(name: "JYMacros", dependencies: ["JYMacrosMacros"]),
+//      .target(name: "JYMacros", dependencies: ["JYMacrosMacros"]),
 
         // A client of the library, which is able to use the macro in its own code.
-        .executableTarget(name: "JYMacrosClient", dependencies: ["JYMacros"]),
+//      .executableTarget(name: "JYMacrosClient", dependencies: ["JYMacros"]),
 
         // A test target used to develop the macro implementation.
-        .testTarget(
-            name: "JYMacrosTests",
-            dependencies: [
-                "JYMacrosMacros",
-                .product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax"),
-            ]
-        ),
+//      .testTarget(
+//          name: "JYMacrosTests",
+//          dependencies: [
+//              "JYMacrosMacros",
+//              .product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax"),
+//          ]
+//      ),
     ]
 )
