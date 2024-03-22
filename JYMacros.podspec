@@ -13,13 +13,11 @@ A proof of concept macro to show they can work with cocoapods.
   s.source_files = ['Sources/JYMacros/**/*']
   s.swift_version = "5.9"
   s.preserve_paths = [
-    "Sources/JYMacrosMacros/**/*",
-    "Resources/**/*",
-    "./Package.swift",
-    "./Makefile",
+    "Sources/JYMacrosMacros",
+    "Resources",
+    "Package.swift",
+    "Makefile",
   ]
-#  s.preserve_paths = ["macros/JYMacrosMacros", "./Makefile"]
-  s.preserve_paths = ["./"]
   s.pod_target_xcconfig = {
     #'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
     'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
