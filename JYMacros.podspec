@@ -25,9 +25,15 @@ A proof of concept macro to show they can work with cocoapods.
     s.pod_target_xcconfig = {
       'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
     }
+    s.user_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
+    }
   else
     makeFilePath = '${PODS_ROOT}/JYMacros'
     s.pod_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
+    }
+    s.user_target_xcconfig = {
       'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
     }
   end
