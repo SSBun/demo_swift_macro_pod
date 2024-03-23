@@ -18,21 +18,19 @@ A proof of concept macro to show they can work with cocoapods.
     "Package.swift",
     "Makefile",
   ]
-  
-  s.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
-    #'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
-  }
 
-  # s.user_target_xcconfig = {
-    # 'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
-#    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
-  # }
-  
-  puts "[DEBUG]Current path: #{`pwd`}"
-  
-  makeFilePath = Dir.pwd
-#  makeFilePath = "${PODS_ROOT}/JYMacros"
+
+  if Dir.pwd.start_with?('/Users')
+    makeFilePath = Dir.pwd
+    s.pod_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS' => "-load-plugin-executable #{Dir.pwd}/macros/JYMacrosMacros#JYMacrosMacros"
+    }
+  else
+    makeFilePath = '${PODS_ROOT}/JYMacros'
+    s.pod_target_xcconfig = {
+      'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/JYMacros/macros/JYMacrosMacros#JYMacrosMacros'
+    }
+  end
   
   # A script printing current path
   script = <<~SCRIPT
